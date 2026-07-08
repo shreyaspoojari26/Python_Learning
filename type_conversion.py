@@ -1,4 +1,6 @@
-x="10"  # "10"
-y=int(x)  # 10
-z=float(y)  # 10.0
-print(x,y,z)
+x="10"
+y=int(x)   
+z=float(y) 
+print(x)  # "10"
+print(y)   # 10
+print(z)  # 10
