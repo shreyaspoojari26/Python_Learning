@@ -1,0 +1,200 @@
+# Day 02 - Operators in Python
+
+## Topics Learned
+
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- String Methods Revision
+- String Indexing
+- String Slicing
+- Negative Indexing
+- Negative Slicing
+- f-Strings
+
+---
+
+## Assignment Operators
+
+Used to assign or update values of variables.
+
+### Operators
+- =
+- +=
+- -=
+- *=
+- /=
+- %=
+- //=
+- **=
+
+### Example
+
+```python
+a = 10
+a += 5
+print(a)   # 15
+```
+
+---
+
+## Comparison Operators
+
+Used to compare two values.
+
+Returns either **True** or **False**.
+
+### Operators
+
+- ==
+- !=
+- >
+- <
+- >=
+- <=
+
+### Example
+
+```python
+a = 10
+b = 20
+
+print(a == b)
+print(a < b)
+```
+
+---
+
+## Logical Operators
+
+Used to combine conditions.
+
+### Types
+
+- and
+- or
+- not
+
+### Example
+
+```python
+print(10 > 5 and 20 > 10)
+print(10 > 20 or 5 < 10)
+print(not(10 > 20))
+```
+
+---
+
+## String Methods (Revision)
+
+- len()
+- upper()
+- lower()
+- strip()
+- replace()
+
+### Example
+
+```python
+name = "Shreyas"
+
+print(len(name))
+print(name.upper())
+print(name.lower())
+```
+
+---
+
+## String Indexing
+
+Indexing is used to access a single character of a string.
+
+Example:
+
+```python
+name = "Python"
+
+print(name[0])   # P
+print(name[-1])  # n
+```
+
+---
+
+## String Slicing
+
+Slicing is used to extract a part of a string.
+
+Example:
+
+```python
+name = "Python"
+
+print(name[0:3])   # Pyt
+print(name[:4])    # Pyth
+print(name[2:])    # thon
+```
+
+---
+
+## Negative Slicing
+
+Negative indexing starts from the end of the string.
+
+Example:
+
+```python
+name = "Python"
+
+print(name[-1])      # n
+print(name[-3:])     # hon
+```
+
+---
+
+## f-Strings
+
+Used to print variables inside a string.
+
+Example
+
+```python
+name = "Shreyas"
+
+print(f"My name is {name}")
+```
+
+---
+
+# Programs Practiced
+
+- assignment_operators.py
+- comparison_operators.py
+- logical_operators.py
+- string_manipulation.py
+- student_details.py
+- name_analyzer.py
+- password_checker.py
+
+---
+
+# Things I Understood
+
+- Assignment operators assign or update values.
+- Comparison operators always return True or False.
+- Logical operators combine conditions.
+- Indexing returns a single character.
+- Slicing returns a part of a string.
+- Negative indexing starts from the end.
+- f-strings make printing variables easier.
+
+---
+
+# Viva Points
+
+- input() always returns a string.
+- Strings are immutable.
+- Indexing starts from 0.
+- Negative indexing starts from -1.
+- Slicing does not include the ending index.
+- Comparison operators return Boolean values.
+- and, or, not are logical operators.
