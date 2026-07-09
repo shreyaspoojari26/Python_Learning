@@ -1,0 +1,6 @@
+name=input('enter student name>>')
+USN=input("enter USN of student>>")
+branch=input("branch name>>")
+print(name[6])
+print(f"I am {name}.And mY USN is{USN}")
+print(type(branch))
