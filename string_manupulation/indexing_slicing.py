@@ -1,0 +1,5 @@
+full_name=input('enter the full name of labour::')
+print("length",len(full_name))
+print("upper",full_name.upper())
+print('sixth index of string',full_name[6])
+print("index",full_name[-1:-5:-2])
