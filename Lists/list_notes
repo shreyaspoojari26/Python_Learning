@@ -1,0 +1,89 @@
+###Lists in Python
+Topics Learned:
+Introduction to Lists
+Creating Lists
+List Features
+List Indexing
+Negative Indexing
+List Slicing
+Negative Slicing
+
+List Methods
+
+Built-in Functions
+Nested Lists
+List Features
+Ordered
+Mutable (Changeable)
+Allows Duplicates
+Stores Multiple Data Types
+Uses Square Brackets []
+List Methods
+append()
+insert()
+extend()
+remove()
+pop()
+clear()
+index()
+count()
+sort()
+reverse()
+copy()
+Built-in Functions
+len()
+sum()
+max()
+min()
+sorted()
+Indexing
+Positive Indexing
+Negative Indexing
+
+Slicing
+Basic Slicing
+Negative Slicing
+Step Slicing
+Reverse Slicing ([::-1])
+
+Difference Between
+append() vs extend()
+append() vs insert()
+remove() vs pop()
+sort() vs sorted()
+List vs Set
+List vs Tuple
+
+Programs Practiced
+list_basics.py
+list_operations.py
+student_marks.py
+favorite_games.py
+contact_list.py
+Things I Understood
+Lists store multiple values.
+Lists are mutable.
+Lists allow duplicate values.
+Lists support indexing and slicing.
+append() adds one element.
+extend() adds multiple elements.
+insert() adds an element at a specific index.
+remove() removes by value.
+pop() removes by index.
+len() returns the number of elements.
+sum() returns the total of numeric elements.
+max() returns the largest element.
+min() returns the smallest element.
+
+Viva Points
+Lists are mutable.
+Lists use square brackets [].
+Lists allow duplicate values.
+Indexing starts from 0.
+Negative indexing starts from -1.
+Slicing excludes the ending index.
+append() modifies the original list.
+remove() removes by value.
+pop() removes by index.
+extend() accepts an iterable (list, tuple, etc.).
+A list can contain another list (Nested List).
