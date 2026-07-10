@@ -1,0 +1,10 @@
+games=["free fire","BGMI","clash squad","minimilitia"]
+print("Games>>",games)
+games.append("pubgi")
+print(games)
+print(len(games))
+print("reverse games list>>>",games[::-1])
+games.remove("minimilitia")
+print(games)
+games.insert(2,"candy crush")
+print(games)
