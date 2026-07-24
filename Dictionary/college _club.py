@@ -4,7 +4,7 @@ robotics = {"Rahul", "Aman", "Kiran", "Ajay"}
 
 print("All Students:", coding | robotics)
 
-print("Both Clubs:", coding & robotics)
+print("Both Clubs :", coding & robotics)
 
 print("Only Coding:", coding - robotics)
 
