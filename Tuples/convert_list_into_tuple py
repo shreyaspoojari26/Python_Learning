@@ -1,0 +1,8 @@
+my_list = [1, 2, 3, 4, 5]
+
+my_tuple = tuple(my_list) # list -> tuple
+print("Tuple:", my_tuple)
+
+new_list = list(my_tuple) # tuple -> list
+new_list.append(6)
+print("Updated List:", new_list)
