@@ -1,0 +1,8 @@
+l = 5
+b = 3
+
+area = l * b
+perimeter = 2 * (l + b)
+
+print("Area:", area) # 15
+print("Perimeter:", perimeter) # 16
