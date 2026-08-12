@@ -1,3 +1,4 @@
+#PERFORM MEMBERSHIP OPERATION USING LAPTOP AS EXAMPLE
 laptops = ["HP Victus", "Dell", "Asus"]
 
 print("HP Victus" in laptops)    # True
