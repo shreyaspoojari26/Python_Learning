@@ -1,0 +1,18 @@
+correct_password = "Shreyas26"
+
+attempts = 0
+
+while attempts < 3:
+
+    password = input("Enter password: ")
+
+    if password == correct_password:
+        print("Login successful!")
+        break
+    else:
+        print("Wrong password")
+
+    attempts += 1
+
+if attempts == 3:
+    print("Too many attempts")
