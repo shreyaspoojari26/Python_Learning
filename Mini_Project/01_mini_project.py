@@ -1,3 +1,4 @@
+#MINI PROJECT-1
 count = 0
 even = 0
 odd = 0
