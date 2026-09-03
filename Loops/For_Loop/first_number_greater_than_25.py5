@@ -1,0 +1,9 @@
+#Find the first number greater than 25
+numbers = [10, 15, 20, 18, 30, 40]
+
+for num in numbers:
+    if num <= 25:
+        continue
+
+    print("Found:", num)
+    break
