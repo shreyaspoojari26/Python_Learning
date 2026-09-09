@@ -1,0 +1,15 @@
+students = [45, 78, 32, 91, 67, 0, 85, 29, 76]
+
+for marks in students:
+
+    if marks == 0:
+        print("No marks entered. Stopping...")
+        break
+
+    if marks < 35:
+        continue
+
+    if marks >= 85:
+        print("Excellent:", marks)
+    else:
+        print("Passed:", marks)
